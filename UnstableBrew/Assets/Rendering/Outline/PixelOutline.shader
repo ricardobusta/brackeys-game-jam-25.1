@@ -7,8 +7,6 @@
     }
     HLSLINCLUDE
     #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
-    // The Blit.hlsl file provides the vertex shader (Vert),
-    // the input structure (Attributes), and the output structure (Varyings)
     #include "Packages/com.unity.render-pipelines.core/Runtime/Utilities/Blit.hlsl"
     
     half4 _OutlineColor;
